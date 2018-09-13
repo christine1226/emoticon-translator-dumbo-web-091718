@@ -9,7 +9,7 @@ def load_library(path)
 
   emoticons.each do |english, emoticon_set|
     emoticon_hash["get_emoticon"][emoticon_set.first] = emoticon_set.last
-    emoticon_hash["get_meaning"][emoticon_set.last] = enlgish
+    emoticon_hash["get_meaning"][emoticon_set.last] = english
   end
   emoticon_hash
 end
